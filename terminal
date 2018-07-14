@@ -1,0 +1,4 @@
+ec2-user:~/environment $ rails new patches
+ec2-user:~/environment $ cd patches
+ec2-user:~/environment/patches (master) $ rails generate controller StaticPages home profile games logIn
+ec2-user:~/environment/patches (master) $ rails server -b $IP -p $PORT
